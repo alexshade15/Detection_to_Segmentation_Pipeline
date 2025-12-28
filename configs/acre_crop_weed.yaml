@@ -1,0 +1,16 @@
+
+# Root del dataset in formato YOLO
+path: data/acre_yolo
+
+# Sotto-cartelle relative a "path"
+train: images/train
+val: images/val
+test: images/test  # opzionale, se non lo usi puoi anche ometterlo
+
+# Numero di classi
+nc: 2
+
+# Nomi delle classi (per log e metriche)
+names:
+  0: crop
+  1: weed
