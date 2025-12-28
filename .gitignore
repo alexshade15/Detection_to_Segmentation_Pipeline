@@ -1,0 +1,5 @@
+data/
+venv/
+outputs/
+runs_A_objdet/
+runs_B_seg/
